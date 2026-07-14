@@ -19,7 +19,8 @@
       "per30sec": 100,
       "nightSurgeSchedule": [
         {"startHour": 23, "endHour": 24, "rate": 0.20},
-        {"startHour": 24, "endHour": 2, "rate": 0.30}
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
       "suburbSurge": 0.30
     },
@@ -30,9 +31,10 @@
       "per30sec": 100,
       "nightSurgeSchedule": [
         {"startHour": 23, "endHour": 24, "rate": 0.20},
-        {"startHour": 24, "endHour": 2, "rate": 0.30}
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.40
+      "suburbSurge": 0.35
     },
     "인천광역시": {
       "baseFare": 4800,
@@ -44,7 +46,7 @@
         {"startHour": 23, "endHour": 2, "rate": 0.40},
         {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.50
+      "suburbSurge": 0.30
     },
     "광주광역시": {
       "baseFare": 4800,
@@ -52,9 +54,11 @@
       "per100m": 132,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.20}
+        {"startHour": 23, "endHour": 24, "rate": 0.20},
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.40
+      "suburbSurge": 0.35
     },
     "대전광역시": {
       "baseFare": 4300,
@@ -62,11 +66,11 @@
       "per100m": 132,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 0, "rate": 0.20},
+        {"startHour": 23, "endHour": 24, "rate": 0.20},
         {"startHour": 0, "endHour": 2, "rate": 0.30},
         {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.50
+      "suburbSurge": 0.30
     },
     "울산광역시": {
       "baseFare": 4500,
@@ -94,8 +98,9 @@
       "per100m": 131,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 0, "rate": 0.20},
-        {"startHour": 0, "endHour": 2, "rate": 0.30}
+        {"startHour": 23, "endHour": 24, "rate": 0.20},
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
       "suburbSurge": 0.20
     },
@@ -105,7 +110,9 @@
       "per100m": 127,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.30}
+        {"startHour": 22, "endHour": 23, "rate": 0.20},
+        {"startHour": 23, "endHour": 2, "rate": 0.40},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
       "suburbSurge": 0.20
     },
@@ -115,11 +122,9 @@
       "per100m": 127,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 22, "endHour": 23, "rate": 0.20},
-        {"startHour": 23, "endHour": 2, "rate": 0.40},
-        {"startHour": 2, "endHour": 4, "rate": 0.20}
+        {"startHour": 22, "endHour": 4, "rate": 0.30}
       ],
-      "suburbSurge": 0.40
+      "suburbSurge": 0.32
     },
     "전라북도": {
       "baseFare": 4300,
@@ -127,9 +132,9 @@
       "per100m": 134,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.30}
+        {"startHour": 0, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.50
+      "suburbSurge": 0.20
     },
     "전라남도": {
       "baseFare": 4300,
@@ -137,9 +142,9 @@
       "per100m": 130,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 22, "endHour": 4, "rate": 0.20}
+        {"startHour": 0, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.32
+      "suburbSurge": 0.35
     },
     "경상북도": {
       "baseFare": 4500,
@@ -147,7 +152,7 @@
       "per100m": 128,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.30}
+        {"startHour": 23, "endHour": 4, "rate": 0.20}
       ],
       "suburbSurge": 0.20
     },
@@ -157,9 +162,9 @@
       "per100m": 130,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.30}
+        {"startHour": 22, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.35
+      "suburbSurge": 0.30
     },
     "제주특별자치도": {
       "baseFare": 4300,
@@ -169,7 +174,7 @@
       "nightSurgeSchedule": [
         {"startHour": 23, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.20
+      "suburbSurge": 0.00
     },
     "세종특별자치시": {
       "baseFare": 4000,
@@ -191,7 +196,7 @@
       "nightSurgeSchedule": [
         {"startHour": 22, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.40
+      "suburbSurge": 0.20
     },
     "부산광역시": {
       "baseFare": 7500,
@@ -208,7 +213,8 @@
       "per30sec": 100,
       "nightSurgeSchedule": [
         {"startHour": 23, "endHour": 24, "rate": 0.20},
-        {"startHour": 24, "endHour": 2, "rate": 0.30}
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
       "suburbSurge": 0.00
     },
@@ -220,7 +226,7 @@
       "nightSurgeSchedule": [
         {"startHour": 22, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.20
     },
     "광주광역시": {
       "baseFare": 5400,
@@ -230,7 +236,7 @@
       "nightSurgeSchedule": [
         {"startHour": 23, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.20
     },
     "대전광역시": {
       "baseFare": 5000,
@@ -238,28 +244,19 @@
       "per100m": 111,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 0, "rate": 0.20},
-        {"startHour": 0, "endHour": 2, "rate": 0.30}
+        {"startHour": 23, "endHour": 24, "rate": 0.20},
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.50
-    },
-    "울산광역시": {
-      "baseFare": 5000,
-      "perKm": 100,
-      "per100m": 120,
-      "per30sec": 100,
-      "nightSurgeSchedule": [],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.30
     },
     "경기도": {
       "baseFare": 7000,
       "perKm": 100,
       "per100m": 144,
       "per30sec": 100,
-      "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.20}
-      ],
-      "suburbSurge": 0.00
+      "nightSurgeSchedule": [],
+      "suburbSurge": 0.20
     },
     "강원특별자치도": {
       "baseFare": 5700,
@@ -267,10 +264,11 @@
       "per100m": 84,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 0, "rate": 0.20},
-        {"startHour": 0, "endHour": 2, "rate": 0.30}
+        {"startHour": 23, "endHour": 24, "rate": 0.20},
+        {"startHour": 0, "endHour": 2, "rate": 0.30},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.20
     },
     "충청북도": {
       "baseFare": 5000,
@@ -278,10 +276,11 @@
       "per100m": 120,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 2, "rate": 0.20},
-        {"startHour": 2, "endHour": 4, "rate": 0.40}
+        {"startHour": 22, "endHour": 23, "rate": 0.20},
+        {"startHour": 23, "endHour": 2, "rate": 0.40},
+        {"startHour": 2, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.35
+      "suburbSurge": 0.20
     },
     "충청남도": {
       "baseFare": 5500,
@@ -299,9 +298,9 @@
       "per100m": 146,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.30}
+        {"startHour": 0, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.20
     },
     "전라남도": {
       "baseFare": 6200,
@@ -309,9 +308,9 @@
       "per100m": 103,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.20}
+        {"startHour": 0, "endHour": 4, "rate": 0.20}
       ],
-      "suburbSurge": 0.00
+      "suburbSurge": 0.35
     },
     "경상북도": {
       "baseFare": 6000,
@@ -328,9 +327,7 @@
       "perKm": 100,
       "per100m": 151,
       "per30sec": 100,
-      "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.20}
-      ],
+      "nightSurgeSchedule": [],
       "suburbSurge": 0.00
     },
     "제주특별자치도": {
@@ -343,13 +340,23 @@
       ],
       "suburbSurge": 0.00
     },
+    "울산광역시": {
+      "baseFare": 5000,
+      "perKm": 100,
+      "per100m": 120,
+      "per30sec": 100,
+      "nightSurgeSchedule": [
+        {"startHour": 22, "endHour": 4, "rate": 0.20}
+      ],
+      "suburbSurge": 0.30
+    },
     "세종특별자치시": {
       "baseFare": 4500,
       "perKm": 100,
       "per100m": 103,
       "per30sec": 100,
       "nightSurgeSchedule": [
-        {"startHour": 23, "endHour": 4, "rate": 0.20}
+        {"startHour": 22, "endHour": 4, "rate": 0.30}
       ],
       "suburbSurge": 0.30
     }
